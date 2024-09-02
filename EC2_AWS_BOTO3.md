@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
 - 2. EC2 Resource Object: Obtains an EC2 resource object to interact with the EC2 service.
 
-- Instance Creation: create_instances() method is used to launch the EC2 instance with specified parameters:
+- 3. Instance Creation: create_instances() method is used to launch the EC2 instance with specified parameters:
  - ImageId: The ID of the Amazon Machine Image (AMI) to use for the instance.
  - InstanceType: The type of instance to create (e.g., t2.micro).
  - MinCount and MaxCount: Specifies how many instances to launch.
