@@ -52,8 +52,8 @@ if __name__ == "__main__":
  - SubnetId: Optional; specifies the subnet in which to launch the instance.
  - Print Instance ID: Outputs the ID of the newly created instance.
 
-Note:
-Ensure that the specified AMI ID, key pair, and security group IDs exist in your AWS account.
+## Note:
+> Ensure that the specified AMI ID, key pair, and security group IDs exist in your AWS account.
 Replace placeholders with appropriate values as per your AWS setup.
 
 
