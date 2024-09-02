@@ -1,7 +1,7 @@
 > Certainly! Here's a basic example of how you can use boto3 to create an EC2 instance in AWS using Python. This script will launch an EC2 instance with specified parameters.
 ### Prerequisites:
-1. AWS Credentials: Make sure you have configured your AWS credentials. You can set up your credentials using the AWS CLI (aws configure) or by setting environment variables.
-2. Boto3 Library: Install the boto3 library if you haven’t already. You can install it using pip:
+- 1. AWS Credentials: Make sure you have configured your AWS credentials. You can set up your credentials using the AWS CLI (aws configure) or by setting environment variables.
+- 2. Boto3 Library: Install the boto3 library if you haven’t already. You can install it using pip:
 ```bash
 pip install boto3
 ```
@@ -44,13 +44,13 @@ if __name__ == "__main__":
 - 2. EC2 Resource Object: Obtains an EC2 resource object to interact with the EC2 service.
 
 - 3. Instance Creation: create_instances() method is used to launch the EC2 instance with specified parameters:
--- ImageId: The ID of the Amazon Machine Image (AMI) to use for the instance.
-InstanceType: The type of instance to create (e.g., t2.micro).
-MinCount and MaxCount: Specifies how many instances to launch.
-KeyName: The name of the key pair for SSH access.
-SecurityGroupIds: List of security group IDs to associate with the instance.
-SubnetId: Optional; specifies the subnet in which to launch the instance.
-Print Instance ID: Outputs the ID of the newly created instance.
+ - ImageId: The ID of the Amazon Machine Image (AMI) to use for the instance.
+ - InstanceType: The type of instance to create (e.g., t2.micro).
+ - MinCount and MaxCount: Specifies how many instances to launch.
+ - KeyName: The name of the key pair for SSH access.
+ - SecurityGroupIds: List of security group IDs to associate with the instance.
+ - SubnetId: Optional; specifies the subnet in which to launch the instance.
+ - Print Instance ID: Outputs the ID of the newly created instance.
 
 Note:
 Ensure that the specified AMI ID, key pair, and security group IDs exist in your AWS account.
