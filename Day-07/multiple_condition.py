@@ -13,3 +13,18 @@ elif type == "t2.large":
 
 else: 
   print("No, we camt create it for you")
+
+
+
+# Execute Commands:
+python multiple_condition t2.micro
+
+# Execute Commands:
+python multiple_condition t2.medium
+
+# Execute Commands:
+python multiple_condition t2.large
+
+# Execute Commands:
+python multiple_condition t2.xyz
+
