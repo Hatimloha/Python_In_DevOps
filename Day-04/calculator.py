@@ -1,15 +1,12 @@
 def addition(num1, num2):
-  add = num1 + num2
-  return add
+    return num1 + num2
 
 def sub(num1, num2):
-  add = num1 - num2
-  return sub
+    return num1 - num2
 
-def addition(num1, num2):
-  mul = num1 * num2
-  return mul
+def mul(num1, num2):
+    return num1 * num2
 
-print(addition(5,10))
-print(sub(50,10))
-print(mul(10,20))
+print(addition(5, 10))  # Output: 15
+print(sub(50, 10))     # Output: 40
+print(mul(10, 20))     # Output: 200
