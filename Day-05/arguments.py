@@ -1,7 +1,3 @@
-# First save the sensitive_information in machine
-export password="hatim"
-
-# Programm:
 def addition(num1, num2):
     return num1 + num2
 
@@ -22,16 +18,4 @@ num2 = int(sys.agrv[3])
 if operation == 'add':
   output = add(num1 + num2)
   print(output)
-
-
-# Run command
-python3 <file name> 2 & 3
-
-
-
-
-
-
-
-
 
