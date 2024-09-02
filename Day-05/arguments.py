@@ -19,3 +19,5 @@ if operation == 'add':
   output = add(num1 + num2)
   print(output)
 
+# Execute file:
+python3 <file-name> 2 & 3
