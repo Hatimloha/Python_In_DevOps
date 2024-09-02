@@ -1,7 +1,7 @@
 > Certainly! Here's a basic example of how you can use boto3 to create an EC2 instance in AWS using Python. This script will launch an EC2 instance with specified parameters.
 ### Prerequisites:
-- 1. AWS Credentials: Make sure you have configured your AWS credentials. You can set up your credentials using the AWS CLI (aws configure) or by setting environment variables.
-- 2. Boto3 Library: Install the boto3 library if you haven’t already. You can install it using pip:
+1. AWS Credentials: Make sure you have configured your AWS credentials. You can set up your credentials using the AWS CLI (aws configure) or by setting environment variables.
+2. Boto3 Library: Install the boto3 library if you haven’t already. You can install it using pip:
 ```bash
 pip install boto3
 ```
